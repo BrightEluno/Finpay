@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { ArrowDownToDot, ArrowUpRight, Nfc } from "lucide-react";
 import Future from "@/components/future/Future";
 import About from "./about/page";
+import StepPage from "./step/page";
 
 export default function Home() {
   return (
@@ -102,6 +103,7 @@ export default function Home() {
       {/* Features Section */}
       <Future />
       <About />
+      <StepPage />
       </div>
       
     </div>

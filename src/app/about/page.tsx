@@ -6,6 +6,7 @@ import Image from "next/image";
 const About = () => {
   return (
     <div className="p-10 md:p-20">
+      
       <div className="   flex flex-col items-center text-center">
         <h1 className="text-finpayBlue text-xs font-semibold uppercase">
           Why Us
@@ -17,7 +18,7 @@ const About = () => {
         {/* Text Section (Add More Content Here) */}
       </div>
       <div className="flex flex-col md:flex-row justify-center mt-6 gap-6">
-        <div className="w-[40%]  bg-finpayLightGrayishBlue p-10 rounded-lg mt-10">
+        <div className="w-[40%]   bg-finpayLightGrayishBlue p-10 rounded-lg mt-10">
           <h1 className="text-6xl font-bold text-finpayBlue">3k+</h1>
           <h3 className="pt-10 text-2xl font-semibold text-finpayDarkCharcoal">
             Businesses already running on Finpay
@@ -26,7 +27,7 @@ const About = () => {
 
         <div className="w-[40%]  bg-finpayLightGrayishBlue p-10 rounded-lg mt-10">
           <h1 className="text-2xl font-semibold text-finpayDarkCharcoal">
-            Businesses already running on Finpay
+            Instant Withdraw your funds at  any time
           </h1>
           <div className="flex flex-rol pt-8  space-y-2 gap-4 items-center justify-center  text-center">
             <div className="w-[60px] h-[60px] rounded-xl bg-finpayBlue mt-2 ">
