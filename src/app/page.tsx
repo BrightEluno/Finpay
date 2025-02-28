@@ -4,18 +4,20 @@ import Image from "next/image";
 import { Input } from "@/components/ui/input";
 import { ArrowDownToDot, ArrowUpRight, Nfc } from "lucide-react";
 import Future from "@/components/future/Future";
-import About from "./about/page";
-import StepPage from "./step/page";
+import About from "../components/about/page";
+import StepPage from "../components/step/page";
+import Mission from "@/components/mission/Mission";
+import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   return (
-    <div className="h-[200vh]">
-      <div className="bg-finpayPowderBlue h-[100vh]">
+    <div className="h-full">
+      <div className="bg-finpayLightGrayishBlue h-[100vh]">
         {/* Navbar */}
         <div className="flex justify-between items-center px-6 md:px-10 py-3">
           {/* <div className="flex  gap-10"> */}
           <h1 className="font-bold text-xl text-finpayDarkTeal">Finpay</h1>
-          <ul className="flex space-x-4  text-base ml-[-450px]  font-semibold">
+          <ul className="md:flex space-x-4  text-base ml-[-450px]  font-semibold hidden">
             <li>
               <a href="/product">Product</a>
             </li>
@@ -104,6 +106,8 @@ export default function Home() {
       <Future />
       <About />
       <StepPage />
+      <Mission />
+      <Footer />
       </div>
       
     </div>

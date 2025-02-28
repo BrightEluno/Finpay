@@ -1,5 +1,5 @@
 import { Chart } from "@/components/chart/Chart";
-import { Landmark, MoveLeft } from "lucide-react";
+import { Landmark } from "lucide-react";
 import Image from "next/image";
 // import Chart from "@/components/chart/Chart";
 
@@ -8,9 +8,9 @@ const About = () => {
     <div className="p-10 md:p-20">
       
       <div className="   flex flex-col items-center text-center">
-        <h1 className="text-finpayBlue text-xs font-semibold uppercase">
+        <span className="text-finpayBlue text-xs font-semibold uppercase">
           Why Us
-        </h1>
+        </span>
         <h2 className="text-3xl font-semibold text-finpayDarkCharcoal mt-2">
           Why They Prefer Finpay
         </h2>

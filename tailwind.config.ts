@@ -16,6 +16,7 @@ export default {
 			finpayDarkCharcoal: '#1D1E20',
 			finpayDarkTeal: '#023347',
 			finpayLightGrayishBlue: '#F5F9FA',
+			finpayDeepTeal: '#0b3a4f',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

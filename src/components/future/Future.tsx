@@ -8,9 +8,9 @@ const Future = () => {
     <div>
       <Card className="w-[90%] max-w-[1200px] mx-auto mt-10 mb-8">
         <div className="p-10 md:p-20">
-          <h1 className="text-finpayBlue text-xs font-semibold uppercase">
+          <span className="text-finpayBlue text-xs font-semibold uppercase">
             Future payment
-          </h1>
+          </span>
 
           <div className="flex flex-col md:flex-row mt-6 gap-6">
             {/* LEFT */}
