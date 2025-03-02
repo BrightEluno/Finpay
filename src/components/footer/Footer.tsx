@@ -25,7 +25,7 @@ const Footer = () => {
               Get Started Now
             </Button>
             <Button className="w-[130px] h-12 rounded-xl border-2 border-finpayDarkTeal bg-transparent text-white">
-              Learn More <ArrowUpRight />
+              Learn More<ArrowUpRight />
             </Button>
           </div>
         </div>
@@ -34,7 +34,6 @@ const Footer = () => {
       {/* Footer Content */}
       <footer className="bg-finpayLightGrayishBlue w-full h-auto md:h-[400px] mt-[-100px] pt-[150px] px-10 md:px-[130px]">
         <div className="flex flex-col md:flex-row justify-between">
-          {/* Logo */}
           <h1 className="font-bold text-xl text-finpayDarkTeal">Finpay</h1>
 
           {/* Links */}
