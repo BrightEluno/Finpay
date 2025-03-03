@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="mt-20">
       {/* CTA Section */}
-      <div className="relative w-[90%] md:w-[79%] h-[250px] bg-finpayDeepTeal rounded-2xl mx-auto p-5 md:p-14 md:px-20">
+      <div className=" w-[90%] md:w-[79%] h-[250px] bg-finpayDeepTeal rounded-2xl mx-auto p-5 md:p-14 md:px-20">
         <div className="flex flex-col md:flex-row gap-10 md:gap-32 items-center">
           <div className="text-center md:text-left">
             <span className="uppercase text-finpayBlue text-xs font-semibold">
