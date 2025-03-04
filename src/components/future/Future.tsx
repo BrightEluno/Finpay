@@ -58,7 +58,7 @@ const Future = () => {
               <Image src="/landmark.png" alt="Bank" width={44} height={44} />
 
               <h2 className="text-finpayDarkCharcoal text-xl font-medium mt-4">
-                Multiple account
+                Multiple account 
               </h2>
                 <p className="font-medium text-sm text-gray-600">
                 Run your operations with cash from your account and generate yield stored in your account.

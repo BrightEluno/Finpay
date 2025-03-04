@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="mt-20">
       {/* CTA Section */}
-      <div className=" w-[90%] md:w-[79%] h-[250px] bg-finpayDeepTeal rounded-2xl mx-auto p-5 md:p-14 md:px-20">
+      <div className=" w-[90%] md:w-[79%] h-[250px] bg-finpayDeepTeal rounded-2xl mx-auto p-5 md:p-14 md:px-20 relative">
         <div className="flex flex-col md:flex-row gap-10 md:gap-32 items-center">
           <div className="text-center md:text-left">
             <span className="uppercase text-finpayBlue text-xs font-semibold">
@@ -32,7 +32,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Content */}
-      <footer className="bg-finpayLightGrayishBlue w-full h-auto md:h-[400px] mt-[-100px] pt-[150px] px-10 md:px-[130px]">
+      <footer className="bg-finpayLightGrayishBlue w-full h-auto md:h-[400px] mt-[-100px] pt-[150px] px-10 md:px-[130px] ">
         <div className="flex flex-col md:flex-row justify-between">
           <h1 className="font-bold text-xl text-finpayDarkTeal">Finpay</h1>
 
