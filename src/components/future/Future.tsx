@@ -22,8 +22,7 @@ const Future = () => {
             {/* RIGHT */}
             <div className="w-full md:w-1/2">
               <p className="text-gray-600 text-base font-medium md:ml-16">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                eget sapien sapien. Lorem ipsum dolor sit amet consectetur.
+                Design a financial operating system that works for your business and streamlined cash flow management.
               </p>
             </div>
           </div>

@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="w-full md:w-1/3">
         <h1 className="text-5xl font-extrabold text-finpayDarkCharcoal">Get paid early</h1>
         <h2 className="text-4xl font-medium mt-2 text-finpayDarkCharcoal">Save automatically from all your pay.</h2>
-        <p className="text-base font-medium mt-4 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget sapien sapien.</p>
+        <p className="text-base font-medium mt-4 text-gray-600">Support small businesses with simple invoicing powerful integrations, and cash flow management tolls.</p>
         <div className="flex w-full max-w-sm items-center space-x-2 pt-5">
           <Input className="h-[45px] rounded-xl" type="email" placeholder="Email" />
           <Button className="bg-finpayBlue rounded-xl h-[45px]" type="submit">Subscribe<ArrowUpRight /></Button>
