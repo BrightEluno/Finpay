@@ -36,9 +36,9 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between">
           <h1 className="font-bold text-xl text-finpayDarkTeal">Finpay</h1>
 
-          {/* Links */}
+         
           <div className="grid grid-cols-2 md:flex gap-10 md:gap-20 mt-8 md:mt-0">
-            {/* Solutions */}
+            
             <ul>
               <span className="text-lg text-finpayDarkTeal font-medium">
                 Solution
@@ -51,7 +51,7 @@ const Footer = () => {
               </div>
             </ul>
 
-            {/* Company */}
+            
             <ul>
               <span className="text-lg text-finpayDarkTeal font-medium">
                 Company
