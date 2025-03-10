@@ -1,5 +1,6 @@
 "use client";
 
+import { CreditCard } from "lucide-react";
 import { Card } from "../ui/card";
 import Image from "next/image";
 
@@ -11,6 +12,7 @@ const Future = () => {
           <span className="text-finpayBlue text-xs font-semibold uppercase">
             Future payment
           </span>
+
 
           <div className="flex flex-col md:flex-row mt-6 gap-6">
             {/* LEFT */}

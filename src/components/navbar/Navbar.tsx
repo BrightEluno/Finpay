@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div className="flex justify-between items-center px-6 md:px-10 py-3">
       <h1 className="font-bold text-xl text-finpayDarkTeal">Finpay</h1>
-      <ul className="md:flex space-x-4 text-base ml-[-450px] font-semibold hidden">
+      <ul className="md:flex space-x-4 text-base lg:ml-0 xl:ml-[-450px] font-semibold hidden">
         <li><a href="/product">Product</a></li>
         <li><a href="/customers">Customers</a></li>
         <li><a href="/pricing">Pricing</a></li>
