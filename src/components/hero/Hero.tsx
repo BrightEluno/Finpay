@@ -20,8 +20,11 @@ export default function Hero() {
           <Image src="/amd.svg" alt="" width={90} height={90} />
         </div>
       </div>
-      <div className="relative w-full lg:w-1/2 flex justify-center mt-[80px]">
-        <Image src="/card.png" alt="Card" width={350} height={350} className="rounded-lg md:w-[64%]  lg:w-[68%] xl:w-[59%]" />
+      <div className="relative w-full lg:w-1/2  flex justify-center mt-[80px]">
+        {/* <Image src="/card.png" alt="Card" width={350} height={350} className="rounded-lg md:w-[64%]  lg:w-[68%] xl:w-[59%]" /> */}
+        <Image src="/card.png" alt="Card" width={350} height={350} className="rounded-lg" />
+
+
         <div className="absolute top-[-30px] ml-[236px] w-[200px] h-[243px] bg-finpayBlue rounded-xl pt-10">
           <p className="text-finpayPowderBlue text-xs font-medium pl-6">Credit Card</p>
           <h3 className="text-white text-xl font-medium pl-6">234 **** ****</h3>
