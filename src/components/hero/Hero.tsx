@@ -19,7 +19,7 @@ export default function Hero() {
           <Image src="/vivint.svg" alt="" width={90} height={90} />
           <Image src="/amd.svg" alt="" width={90} height={90} />
         </div>
-      </div>
+      </div> 
       <div className="relative w-full lg:w-1/2  flex justify-center mt-[80px]">
         {/* <Image src="/card.png" alt="Card" width={350} height={350} className="rounded-lg md:w-[64%]  lg:w-[68%] xl:w-[59%]" /> */}
         <Image src="/card.png" alt="Card" width={350} height={350} className="rounded-lg" />

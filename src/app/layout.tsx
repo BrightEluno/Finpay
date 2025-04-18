@@ -31,7 +31,7 @@ const turnkey = localFont({
     },
   ],
   variable: "--turnkey-sans",
-});
+}); 
 
 export const metadata: Metadata = {
   title: "Finpay",
