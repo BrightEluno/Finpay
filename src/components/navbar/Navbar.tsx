@@ -14,6 +14,6 @@ export default function Navbar() {
         <Button variant="secondary" className="w-[100px]">Login</Button>
         <Button className="w-[100px] bg-finpayBlue hover:bg-finpayDeepIndigo">Sign Up</Button>
       </div>
-    </div>
+    </div> 
   );
 }
